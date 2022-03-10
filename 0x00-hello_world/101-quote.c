@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <unistd.h>
+
+/**
+ *	main - Print exactly the name string
+ *	Description: This program prints a string without printf and puts
+ *	Return: 0
+ */
+
+int main(void)
+{
+	char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(2, ch, sizeof(ch));
+
+	return (1);
+}
