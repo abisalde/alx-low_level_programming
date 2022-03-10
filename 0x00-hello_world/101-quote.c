@@ -4,7 +4,7 @@
 /**
  *	main - Print exactly the name string
  *	Description: This program prints a string without printf and puts
- *	Return: 0
+ *	Return: 1
  */
 
 int main(void)
