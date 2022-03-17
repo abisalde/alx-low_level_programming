@@ -3,10 +3,10 @@
 /**
  * _isdigit - check for digit from 0 to 9
  * @c: character to be checked
- * Return: 0 (1)
+ * Return: 1 if c is uppercase or 0 otherwise
  */
 
 int _isdigit(int c)
 {
-	
+	return ((c >= '0' && c <= '9'));
 }
