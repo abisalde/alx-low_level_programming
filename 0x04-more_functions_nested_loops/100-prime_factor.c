@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
 /**
  * main - prime factors
@@ -9,20 +9,18 @@
 
 int main(void)
 {
+	long i, num;
 
-unsigned int long n = 612852475143, a = (int) sqrt(n);
+	num = 612852475143;
 
-while (1)
-{
-
-	if (n % a == 0)
+	for (i = 3; i < num; i += 2)
 	{
-		printf("%lu \n", n / a);
-		break;
+		if (num % i == 0)
+		{
+			num /= i;
+		}
 	}
-	a--;
+	printf("%ld\n", num);
 
-}
-
-return (0);
+	return (0);
 }
