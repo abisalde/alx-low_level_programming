@@ -10,9 +10,7 @@
  */
 
 int main(void)
-int main(void)
 {
-
 	int i = 1;
 
 	while (i <= 100)
@@ -43,5 +41,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-
-
+}
