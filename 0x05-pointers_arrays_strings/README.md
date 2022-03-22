@@ -23,3 +23,11 @@
 ### 4. I can only go one way. I've not got a reverse gear
 - prints a string, in reverse, followed by a new line.
 - Prototype: `void print_rev(char *s);`
+
+### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+- function that reverses a string.
+- Prototype: `void rev_string(char *s);`
+
+### 6. Half the lies they tell about me aren't true
+- function that prints every other character of a string, starting with the first character, followed by a new line
+- Prototype: `void puts2(char *str);`
