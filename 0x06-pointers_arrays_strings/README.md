@@ -2,7 +2,9 @@
 
 ### 0. strcat
 
-Write a function that concatenates two strings. - Prototype: `char *_strcat(char *dest, char *src)`; - This function appends the src string to the dest string, overwriting the terminating null byte (`\0`) at the end of `dest`, and then adds a terminating null byte - Returns a pointer to the resulting string `dest`
+Write a function that concatenates two strings. 
+    - Prototype: `char *_strcat(char *dest, char *src)`; 
+    - This function appends the src string to the dest string, overwriting the terminating null byte (`\0`) at the end of `dest`, and then adds a terminating null byte - Returns a pointer to the resulting string `dest`
 
 ### 1. strncat
 
@@ -40,6 +42,4 @@ Write a function that reverses the content of an array of integers.
 Write a function that changes all lowercase letters of a string to uppercase.
 
     - Prototype: `char *string_toupper(char *);`
-
-### 6.
 
