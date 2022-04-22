@@ -8,3 +8,12 @@ Write a function that prints all the elements of a `list_t` list.
 - Format: see example
 - If `str` is `NULL`, print `[0] (nil)`
 - You are allowed to use `printf`
+
+
+#### 6. Real programmers can write assembly code in any language
+
+Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a new line.
+
+- You are only allowed to use the printf function
+- You are not allowed to use interrupts
+- Your program will be compiled using `nasm` and `gcc`:
