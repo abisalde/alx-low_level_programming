@@ -9,3 +9,10 @@ Write a function that converts a binary number to an `unsigned int`.
 - Return: the converted number, or 0 if
   - there is one or more chars in the string `b` that is not `0` or `1`
   - `b` is `NULL`
+
+#### 7. Crackme
+
+Find the password for this program.
+
+- Save the password in the file `101-password`
+- Your file should contain the exact password, no new line, no extra space
